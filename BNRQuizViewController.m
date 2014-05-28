@@ -17,11 +17,10 @@
 @end
 
 @implementation BNRQuizViewController
-- (instancetype)initWithNibName: (NSString *)nibNameOrNil
-                          bundle:(NSBundle *)nibBundleOrNil
+- (void)awakeFromNib
 {
     // Call the init method
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    [super awakeFromNib];
     
     if (self) {
         //create two arrays of Qs and As and make the pointers point to them.
@@ -31,8 +30,6 @@
                          @"6"];
         
     }
-    
-    return self;
     
 }
 

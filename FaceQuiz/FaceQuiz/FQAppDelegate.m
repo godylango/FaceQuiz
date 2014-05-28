@@ -1,20 +1,21 @@
 //
-//  BNRAppDelegate.m
-//  Quiz
+//  FQAppDelegate.m
+//  FaceQuiz
 //
-//  Created by dylan on 5/23/14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Created by Indiegogo Pair on 5/28/14.
+//
 //
 
-#import "BNRAppDelegate.h"
-#import "BNRQuizViewController.h"
+#import "FQAppDelegate.h"
 
-@implementation BNRAppDelegate
+@implementation FQAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // Override point for customization after application launch.
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
